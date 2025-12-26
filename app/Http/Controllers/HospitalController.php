@@ -40,4 +40,15 @@ class HospitalController extends Controller
     {
         return view('appointment-create');
     }
+
+    
+    public function login()
+    {
+        return view('login');
+    }
+
+    public function register()
+    {
+        return view('register');
+    }
 }

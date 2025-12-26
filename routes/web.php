@@ -10,3 +10,5 @@ Route::get('/doctors', [HospitalController::class, 'doctors'])->name('doctors');
 Route::get('/doctors/create', [HospitalController::class, 'createDoctor'])->name('doctors.create');
 Route::get('/appointments', [HospitalController::class, 'appointments'])->name('appointments');
 Route::get('/appointments/create', [HospitalController::class, 'createAppointment'])->name('appointments.create');
+Route::get('/login', [HospitalController::class, 'login'])->name('login');
+Route::get('/register', [HospitalController::class, 'register'])->name('register');

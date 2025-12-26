@@ -32,6 +32,10 @@
                     <i class="fas fa-calendar-check"></i>
                     <span>Appointments</span>
                 </a>
+                <a href="{{ route('login') }}" class="nav-link {{ request()->routeIs('login') ? 'active' : '' }}">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Login</span>
+                </a>
             </nav>
         </div>
     </header>
